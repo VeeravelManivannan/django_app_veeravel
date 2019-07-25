@@ -1,0 +1,5 @@
+#How to build the python app
+python setup.py sdist
+
+#How to remove the build app , so that you can rebuild it
+rm -rf dist django_polls.egg-info
